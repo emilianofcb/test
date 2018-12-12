@@ -26,5 +26,8 @@ cd $HOME_DIR && unlink $PROJECT_NAME
 echo "Link current version"
 ln -s $VERSIONS_DIR/$BUILD_TAG $PROJECT_DIR
 
+echo "Set environment parameters for db connection"
+cp $PROJECT_DIR/config/parameters.$ENV.php $PROJECT_DIR/prestashop/app/config/parameters.php
+
 echo "Start Docker"
 cd $PROJECT_DIR && docker-compose start
