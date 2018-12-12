@@ -15,7 +15,7 @@ echo "WORKSPACE > $WORKSPACE"
 echo "PROJECT_NAME > $PROJECT_NAME"
 echo "Moving checked out version to versions directory"
 
-cp -r $WORKSPACE ./versions/$BUILD_TAG
+cp -r $WORKSPACE $VERSIONS_DIR/$BUILD_TAG
 
 echo "Stop Docker"
 cd $PROJECT_DIR && docker-compose stop
