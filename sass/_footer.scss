@@ -1,0 +1,257 @@
+/*** FOOTER ***/
+
+.page-footer .account-link {
+  margin-right: 1rem;
+}
+.page-footer .account-link i {
+  font-size: 1rem;
+}
+.page-footer .account-link span {
+  font-size: 0.875rem;
+  vertical-align: middle;
+}
+.carousel .direction {
+  z-index: auto;
+}
+.carousel .carousel-item {
+  height: 100%;
+}
+.carousel .carousel-item img {
+  width: 100%;
+  margin-left: 0;
+}
+.carousel .carousel-item .caption {
+  position: absolute;
+  bottom: 28px;
+  left: 90px;
+  color: white;
+  max-width: 340px;
+  display: none;
+}
+.carousel .carousel-item .caption .caption-description p {
+  color: white;
+}
+.carousel .carousel-control {
+  opacity: 1;
+}
+.carousel .carousel-control .icon-next::before,
+.carousel .carousel-control .icon-prev::before {
+  content: "";
+}
+.carousel .carousel-control .icon-next i,
+.carousel .carousel-control .icon-prev i {
+  color: #ffffff;
+  display: inline-block;
+  float: none;
+  font-size: 28px;
+  height: 100%;
+  padding: 11px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+.carousel .carousel-control .icon-next:hover i,
+.carousel .carousel-control:focus .icon-next i,
+.carousel .carousel-control .icon-prev:hover i,
+.carousel .carousel-control:focus .icon-prev i {
+  color: #000000;
+}
+.carousel .carousel-control .icon-prev {
+  left: 1rem;
+}
+.carousel .carousel-control .icon-next {
+  right: 2rem;
+}
+
+
+.footer-container .row {
+  margin:0;
+}
+.footer-container .container > .row > div {
+  padding:50px 0;
+}
+
+.footer-container {
+  float:left;
+  width:100%;
+  overflow:hidden;
+}
+.footer-container li {
+  margin-bottom:0.3125rem;
+  color:#333333;
+}
+.footer-container li a {
+  color:#333333;
+  cursor:pointer;
+  font-size:0.875rem;
+}
+.footer-container li a:hover {
+  color:#000000;
+}
+.footer-container .links .collapse {
+  display:inherit;
+  margin:0;
+}
+
+/*** FOOTER ***/
+
+#footer {
+  float:left;
+  width:100%;
+  background:rgba(0, 0, 0, 0) url("../img/footer-bg.jpg") no-repeat scroll center bottom;
+  min-height:690px;
+  padding:150px 0 200px;
+  margin:30px 0 0;
+}
+
+.footer-container .links h3,
+.footer-container #block_myaccount_infos h3 a,
+.footer-container .contact-rich h4 {
+  color:#ff4fa3;
+  cursor:pointer;
+  font-weight:400;
+  font-size:20px;
+  line-height:22px;
+  letter-spacing:0.6px;
+  margin:0 0 20px;
+  text-transform:capitalize !important;
+  font-family:lilita one;
+}
+.bottom-footer {
+  float:left;
+  text-align:center;
+  width:100%;
+  padding:5px 0;
+}
+.bottom-footer p {
+  margin:0;
+  padding:12px 0;
+}
+.bottom-footer p a {
+  font-size:13px;
+  color:#333333;
+}
+.bottom-footer p a:hover {
+  color:#000000;
+}
+
+
+/*--------------------------- Start contact-info footer --------------------------*/
+
+.contact-rich .block .data.email {
+  display:none;
+}
+.contact-rich .block .data.contact {
+  display:none;
+}
+/*--------------------------- End contact-info footer --------------------------*/
+
+.footer-container .links .col-md-6.wrapper {
+  padding:0;
+}
+.footer-container .links .col-md-6.wrapper:last-child {
+  display:none;
+}
+.footer-container .links .collapse {
+  padding:0;
+}
+
+.footer-container .block-contact li a::before {
+  display:none;
+}
+
+@media (max-width: 991px) {
+
+  .footer-container .links .title {
+    padding:0.625rem;
+    cursor:pointer;
+    border-radius:5px;
+  }
+  .footer-container .links .h3 {
+    font-weight:400;
+    text-transform:capitalize;
+    line-height:25px;
+    margin:0;
+  }
+
+  .footer-container .container > .row > div {
+    padding: 0;
+  }
+  .footer-container {
+    box-shadow:none;
+    margin-top:0;
+  }
+  .footer-container .wrapper {
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+  .footer-container .links .title[aria-expanded="true"] .collapse-icons .add {
+    display:none;
+  }
+  .footer-container .links .title[aria-expanded="true"] .collapse-icons .remove {
+    display:block;
+  }
+  .footer-container .links .navbar-toggler {
+    display:inline-block;
+    padding:0;
+  }
+  .footer-container .links ul {
+    margin-bottom:0;
+  }
+  #footer {
+    padding-top:0.5rem;
+  }
+
+
+/*--------------------------- Start Footer toggle --------------------------*/
+
+
+  .footer-container .links .row {
+    margin:0;
+  }
+  .footer-container .links .float-xs-right {
+    height:25px;
+  }
+  .contact-rich {
+    margin:0;
+  }
+  .footer-container .links .title:hover {
+    background:rgba(235,
+            224,
+            208,
+            0.3) none repeat scroll 0 0;
+  }
+  .footer-container .links .float-xs-right .navbar-toggler i {
+    font-size:20px;
+    padding:2px 0;
+  }
+  .footer-container .links ul {
+    padding:0 10px;
+  }
+  .footer-container .links {
+    width:100%;
+  }
+  .footer-container .links .wrapper {
+    width:100%;
+    padding:0;
+  }
+  .footer-container .links .hidden-md-up {
+    display:block!important;
+  }
+  .footer-container .links h3,
+  .footer-container #block_myaccount_infos h3 a,
+  .footer-container .contact-rich h4 {
+    display:none;
+  }
+  .footer-container .links .collapse {
+    display:none!important;
+  }
+  .footer-container .links .collapse.in {
+    display:block!important;
+    padding:0 10px;
+  }
+  .footer-container .links .float-xs-right .navbar-toggler i.remove {
+    display:none;
+  }
+}
+/*--------------------------- End Footer  --------------------------*/

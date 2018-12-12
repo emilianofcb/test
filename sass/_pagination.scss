@@ -1,0 +1,81 @@
+/* -------------- Pagination(CategoryPage) ------------------- */
+
+.pagination {
+  width:100%;
+}
+.pagination > div:first-child {
+  line-height:34px;
+}
+.pagination-left {
+  float:left;
+  padding:0;
+  text-align:left;
+}
+.pagination-right {
+  float:right;
+  padding:0;
+}
+.pagination .page-list {
+  padding:0;
+  margin-bottom:0;
+  float:right;
+}
+.pagination .page-list li {
+  display:inline-block;
+  float:none;
+  vertical-align:middle;
+}
+.pagination a {
+  height:34px;
+  width:34px;
+  padding:6px;
+  display:block;
+  color:#777777;
+}
+.pagination a:focus {
+  text-decoration:none;
+}
+.pagination a i {
+  font-size:22px;
+}
+.pagination .previous {
+  float:left;
+  font-size:0;
+  line-height:0;
+  margin:0 !important;
+}
+.pagination .js-search-link {
+  border:1px solid #ebe0d0;
+  border-radius:50%;
+  overflow:hidden;
+}
+.pagination .js-search-link:hover {
+  color:#ffffff;
+  background:#ffa247;
+  border-color:#ffa247;
+}
+
+.pagination .next {
+  float:right;
+  font-size:0;
+  margin:0 !important;
+}
+
+.pagination .disabled {
+  color:#777777;
+}
+.pagination .current a {
+  color:#ffffff;
+  text-decoration:none;
+  background:#ff4fa3;
+  border-color:#ff4fa3;
+}
+
+@media (max-width: 767px) {
+  .pagination .next {
+    margin-left: 10px;
+  }
+  .pagination .previous {
+    margin-right:10px;
+  }
+}

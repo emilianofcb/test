@@ -1,0 +1,255 @@
+.social-sharing {
+  width:100%;
+  display:-webkit-box;
+  display:-moz-box;
+  display:box;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flexbox;
+  -js-display:flex;
+  display:flex;
+  -webkit-box-align:center;
+  -moz-box-align:center;
+  box-align:center;
+  -webkit-align-items:center;
+  -moz-align-items:center;
+  -ms-align-items:center;
+  -o-align-items:center;
+  align-items:center;
+  -ms-flex-align:center;
+  margin-top:1.5rem;
+}
+.social-sharing ul {
+  margin-bottom:0;
+  padding:0;
+}
+.social-sharing li {
+  box-shadow:2px 2px 11px 0px rgba(0,
+          0,
+          0,
+          0.1);
+  height:2.5rem;
+  width:2.5rem;
+  border-radius:50%;
+  display:inline-block;
+  background-color:#fbf9f5;
+  background-repeat:no-repeat;
+  background-size:2rem 2rem;
+  background-position:0.25rem 0.25rem;
+  cursor:pointer;
+  margin-left:0.5rem;
+}
+.social-sharing li a {
+  display:block;
+  width:100%;
+  height:100%;
+  white-space:nowrap;
+  text-indent:100%;
+  overflow:hidden;
+}
+.social-sharing li a:hover {
+  color:transparent;
+}
+.block-social {
+  padding:0 !important;
+  text-align:center;
+  width:100%;
+  float:left;
+}
+/* .block-social li {
+  height:24px;
+  width:24px;
+  display: inline-block;
+  margin: 0.125rem;
+  cursor: pointer; }
+  .block-social li:hover { background-color: #ff4fa3; }
+  .block-social li a {
+    display: block;
+    height: 100%;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden; }
+    .block-social li a:hover {
+      color: transparent; }*/
+
+.social-sharing .facebook {
+  background:url("../img/social-sprite.png");
+}
+.social-sharing.facebook::before {
+  content:"";
+  background:url("../img/social-sprite.png");
+}
+.social-sharing .facebook.icon-gray {
+  background-image:url(../css/d3fbae74a276a9f6cf1d6241f29b61a3.svg);
+}
+.social-sharing .facebook.icon-gray:hover {
+  background-image:url(../css/8b05d51ede908907d65695558974d86f.svg);
+}
+.social-sharing .twitter {
+  background-image:url(../css/a67175d1ea11389d9107bd8c08f9d7d7.svg);
+}
+.social-sharing .twitter::before {
+  content:"";
+  background-image:url(../css/ffddcb3736980b23405b31142a324b62.svg);
+}
+.social-sharing .twitter.icon-gray {
+  background-image:url(../css/d1a435fd2571e67858a31ee954b52278.svg);
+}
+.social-sharing .twitter.icon-gray:hover {
+  background-image:url(../css/ffddcb3736980b23405b31142a324b62.svg);
+}
+.social-sharing .rss {
+  background-image:url(../css/cf2f3c1d5c7cb02c29f61964313148e1.svg);
+}
+.social-sharing .youtube {
+  background-image:url(../css/22c0528acb6d9cd5bf4c8f96381bc05c.svg);
+}
+.social-sharing .googleplus {
+  background-image:url(../css/36bff72dcba3098b4b70b482b22c29ab.svg);
+}
+.social-sharing .googleplus::before {
+  content:"";
+  background-image:url(../css/c1a65805f759901a39d10eb854c1dcf2.svg);
+}
+.social-sharing .googleplus.icon-gray {
+  background-image:url(../css/7c24d4275efcbe8891f78378b7c808e0.svg);
+}
+.social-sharing .googleplus.icon-gray:hover {
+  background-image:url(../css/c1a65805f759901a39d10eb854c1dcf2.svg);
+}
+.pinterest::before {
+  content:"";
+  background-image:url(../css/b1db819132e64a3e01911a1413c33acf.svg);
+}
+.pinterest.icon-gray {
+  background-image:url(../css/7988be8b63edf9c4accebf94d5db7927.svg);
+}
+.pinterest.icon-gray:hover {
+  background-image:url(../css/b1db819132e64a3e01911a1413c33acf.svg);
+}
+
+
+.block-social ul {
+  float:left;
+  width:100%;
+  margin:0;
+}
+.block-social ul li a {
+  height:40px;
+  width:40px;
+  display:block;
+}
+.block-social ul li {
+  float:left;
+  height:40px;
+  margin:0 3px 0 0;
+  width:40px;
+  cursor:pointer;
+  border-right:1px solid #ebe0d0;
+}
+.block-social ul li:last-child {
+  margin:0;
+  border:none;
+}
+.block-social ul li a p {
+  display:none;
+}
+.block-social ul li.facebook a::before {
+  content:"";
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -20px;
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.facebook a:hover:before {
+  background-position:-101px -20px;
+}
+.block-social ul li.twitter a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -100px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.twitter a:hover:before {
+  background-position:-101px -100px;
+}
+.block-social ul li.rss a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -180px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.rss a:hover:before {
+  background-position:-101px -180px;
+}
+.block-social ul li.youtube a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -260px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.youtube a:hover:before {
+  background-position:-101px -260px;
+}
+.block-social ul li.googleplus a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -340px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.googleplus a:hover:before {
+  background-position:-101px -340px;
+}
+.block-social ul li.pinterest a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -420px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.pinterest a:hover:before {
+  background-position:-101px -420px;
+}
+.block-social ul li.vimeo a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -500px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.vimeo a:hover:before {
+  background-position:-101px -500px;
+}
+.block-social ul li.instagram a::before {
+  background:transparent url("../img/social-sprite.png") no-repeat scroll -21px -580px;
+  content:"";
+  float:left;
+  height:100%;
+  width:100%;
+}
+.block-social ul li.instagram a:hover:before {
+  background-position:-101px -580px;
+}
+
+.block-social ul {
+  display:inline-block;
+  float:none;
+  margin:0 auto;
+  padding:0;
+  vertical-align:top;
+  width:auto;
+}
+
+@media (max-width: 991px) {
+  .block-social {
+    text-align:center;
+    margin:20px 0 0;
+  }
+  .block-contact {
+    padding-left:1.5rem;
+  }
+}

@@ -1,0 +1,47 @@
+/* ------------------ Start Manufacture block --------------------- */
+
+#manufacturer .brand {
+  border-bottom:1px solid #eeeeee;
+  float:left;
+  margin:0 0 10px;
+  width:100%;
+}
+#manufacturer .brand:last-child {
+  border:medium none;
+}
+#manufacturer .brand .brand-img {
+  margin:0 0 10px;
+  padding:0;
+  width:auto;
+}
+#manufacturer .brand .brand-img img {
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -khtml-border-radius:10px;
+  max-width:100%;
+  overflow:hidden;
+}
+#manufacturer .brand .brand-infos a {
+  color:#000000;
+  font-size:14px;
+  font-weight:normal;
+}
+#manufacturer .brand .brand-desc {
+  float:left;
+}
+@media (max-width: 543px) {
+  #manufacturer .brand {
+    text-align:center;
+  }
+  #manufacturer .brand .brand-img {
+    float:none;
+    display:inline-block;
+    vertical-align:top;
+  }
+  #manufacturer .brand .brand-desc {
+    width:100%;
+    margin:0 0 10px;
+  }
+}
+/* ------------------ End Manufacture block --------------------- */

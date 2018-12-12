@@ -1,0 +1,159 @@
+/*---------------------------- Start TT - CMS Services block ----------------------------*/
+
+#ttcmsservices {
+  float:left;
+  width:100%;
+  margin:30px 0 20px;
+}
+#ttcmsservices .title_block {
+  display:none;
+}
+#ttcmsservices .block_content {
+  float:left;
+  width:100%;
+}
+@media (max-width: 767px) {
+  #ttcmsservices {
+    margin:10px 0 0;
+  }
+  #ttcmsservices .block_content {
+    margin:0;
+  }
+  #ttcmsservices .block_content > div.ttservice .ttcontent_inner .service .service-content {
+    border:none;
+  }
+}
+#ttcmsservices .block_content > div {
+  float:left;
+  position:relative;
+  padding:20px 0;
+}
+@media (max-width: 991px) {
+  #ttcmsservices .block_content > div {
+    width:50%;
+  }
+}
+@media (max-width: 543px) {
+  #ttcmsservices .block_content > div {
+    width:100%;
+  }
+}
+@media (max-width: 543px) {
+  #ttcmsservices .block_content > div:after {
+    border-top:none;
+    border-bottom:1px solid #f0f0f0;
+    bottom:0;
+    left:0;
+    margin:0 auto;
+    right:0;
+    width:70%;
+    top:auto;
+    transform:none;
+  }
+}
+#ttcmsservices .block_content > div:last-child:after {
+  border:none;
+}
+#ttcmsservices .block_content > div .ttcontent_inner {
+  display:inline-block;
+  float:none;
+  width:100%;
+  text-align:center;
+  cursor:pointer;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-icon {
+  width:100px;
+  height:100px;
+  float:none;
+  margin:0 auto;
+  display:inline-block;
+  text-align:center;
+  transition:all 400ms ease-in-out 0s;
+  -webkit-transition:all 400ms ease-in-out 0s;
+  -moz-transition:all 400ms ease-in-out 0s;
+  -o-transition:all 400ms ease-in-out 0s;
+  -ms-transition:all 400ms ease-in-out 0s;
+}
+#ttcmsservices .block_content > div:hover .ttcontent_inner .service .service-icon {
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-icon.ttshipping_img {
+  background:rgba(0,
+          0,
+          0,
+          0) url("../img/services-sprite.png") no-repeat scroll -4px -5px;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-icon.ttservice_img {
+  background:rgba(0,
+          0,
+          0,
+          0) url("../img/services-sprite.png") no-repeat scroll -4px -115px;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-icon.ttmoneyback_img {
+  background:rgba(0,
+          0,
+          0,
+          0) url("../img/services-sprite.png") no-repeat scroll -4px -225px;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-icon.ttguide_img {
+  background:rgba(0,
+          0,
+          0,
+          0) url("../img/services-sprite.png") no-repeat scroll -4px -335px;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-content {
+  float:left;
+  width:100%;
+  padding:0 15px;
+  border-right:1px dotted #c9c7c4;
+}
+#ttcmsservices .block_content > div:last-child .ttcontent_inner .service .service-content {
+  border:none;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-content .service-title {
+  color:#333333;
+  font:400 17px/24px"lilita one",
+  Helvetica,
+  sans-serif;
+  letter-spacing:0.4px;
+  margin:0 0 5px;
+}
+#ttcmsservices .block_content > div .ttcontent_inner .service .service-content .service-desc {
+  color:#777777;
+  font:italic 300 14px/18px"Poppins",
+  Helvetica,
+  sans-serif;
+  letter-spacing:0.6px;
+  text-transform:capitalize;
+}
+#ttcmsservices .block_content > div:hover .ttcontent_inner .service .service-content .service-title {
+  color:#ff4fa3;
+}
+@media (min-width: 544px) and (max-width: 767px) {
+  #ttcmsservices .block_content > div .ttcontent_inner .service .service-content .service-title {
+    font-size:16px;
+  }
+  #ttcmsservices .block_content > div .ttcontent_inner .service .service-content .service-desc {
+    font-size:13px;
+  }
+}
+@media (max-width: 991px) {
+  #ttcmsservices .block_content > div.ttservice .ttcontent_inner .service-content {
+    border:none;
+  }
+}
+@media (min-width: 544px) {
+  #ttcmsservices .block_content > div .ttcontent_inner .service .service-content {
+    padding:5px 0 0;
+  }
+}
+@media (max-width: 543px) {
+  #ttcmsservices .block_content > div .ttcontent_inner .service .service-content {
+    border:none;
+  }
+}
+/*---------------------------- End TT - CMS Services block ----------------------------*/

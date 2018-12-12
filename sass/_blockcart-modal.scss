@@ -1,0 +1,104 @@
+#blockcart-modal {
+  color:#414141;
+}
+#blockcart-modal .modal-header {
+  background:#4cbb6c;
+}
+#blockcart-modal .modal-body {
+  padding:3.125rem 1.875rem;
+}
+#blockcart-modal .modal-body .divide-right span {
+  display:inline-block;
+  margin-bottom:0.3125rem;
+}
+#blockcart-modal .modal-dialog {
+  max-width:1140px;
+  width:100%;
+}
+#blockcart-modal .product-image {
+  border:1px solid #ebe0d0;
+  border-radius:15px;
+  max-width: 100%;
+}
+#blockcart-modal .modal-title {
+  font-weight:600;
+  color:white;
+  font-size:1.125rem;
+}
+#blockcart-modal .modal-title i.material-icons {
+  margin-right:1.875rem;
+}
+#blockcart-modal .cart-products-count {
+  font-size:1.125rem;
+}
+#blockcart-modal .cart-content {
+  padding-left:2.5rem;
+}
+#blockcart-modal .cart-content button {
+  margin-right:0.3125rem;
+}
+#blockcart-modal .divide-right {
+  border-right:#acaaa6 1px solid;
+}
+#blockcart-modal .cart-content .btn {
+  margin-bottom:0.625rem;
+  margin-top:20px;
+}
+
+@media (max-width: 991px) {
+  #blockcart-modal .modal-dialog {
+    width:calc(100% - 20px);
+  }
+  #blockcart-modal .modal-body {
+    padding:1.875rem;
+  }
+  #blockcart-modal .ttproduct-image {
+    width:100%;
+    display:block;
+    max-width:250px;
+    margin:0 auto 0.9375rem;
+  }
+  #blockcart-modal .cart-content {
+    padding-left:0;
+  }
+  #blockcart-modal .product-name,
+  #product-availability {
+    margin-top:0.625rem;
+  }
+}
+@media (max-width: 767px) {
+  #blockcart-modal .divide-right {
+    border-right:none;
+  }
+  #blockcart-modal .modal-body {
+    padding:1rem;
+  }
+}
+
+/*-----------alert add to cart---------*/
+
+@media (max-width: 991px) {
+  #blockcart-modal .modal-body .divide-right {
+    border: none;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  #blockcart-modal .modal-body .divide-left {
+    width: 100%;
+  }
+  #blockcart-modal .modal-body .divide-right .product-image-container {
+    width: auto;
+  }
+  #blockcart-modal .modal-body .divide-right .product-info {
+    width: auto;
+  }
+}
+@media (max-width: 543px) {
+  #blockcart-modal .modal-body .divide-right .product-info {
+    width: 100%;
+  }
+  #blockcart-modal .modal-body .divide-right .product-image-container {
+    width: 100%;
+    text-align: center;
+  }
+}

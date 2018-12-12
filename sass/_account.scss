@@ -1,0 +1,182 @@
+/*** Most of the customer account pages ***/
+
+.page-customer-account #content {
+  border: 1px solid #ebe0d0;
+  background: white;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #878787;
+}
+.page-customer-account #content .order-actions a {
+  padding: 0 0.125rem;
+}
+.page-customer-account #content .forgot-password {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  padding-bottom: 0.9375rem;
+}
+.page-customer-account #content .no-account {
+  text-align: center;
+  font-size: 1rem;
+}
+/*** Login page ***/
+
+.page-authentication #content {
+  border: 1px solid #ebe0d0;
+  background: #fbf9f5 none repeat scroll 0 0;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+/*** Addresses page ***/
+
+.page-addresses #content .address {
+  background: #fbf9f5 none repeat scroll 0 0;
+  border: 1px solid #ebe0d0;
+  color: #414141;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.page-addresses .address .address-body {
+  padding: 1rem;
+}
+.page-addresses .address .address-body h4 {
+  border-bottom: 1px solid #ebe0d0;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 15px;
+  padding: 0 0 10px;
+}
+.page-addresses .address .address-body address {
+  min-height: 9rem;
+}
+.page-addresses .address .address-footer {
+  border-top: 1px solid #ebe0d0;
+  padding: 0.5rem 1rem;
+}
+.page-addresses .address .address-footer a {
+  color: #878787;
+  margin-right: 0.5rem;
+}
+.page-addresses .address .address-footer a:hover {
+  color: #414141;
+}
+.page-addresses .address .address-footer a i {
+  font-size: 1rem;
+}
+.page-addresses .address .address-footer a span {
+  font-size: 0.9375rem;
+  vertical-align: middle;
+}
+.page-addresses .addresses-footer {
+  margin: 20px 10px 0;
+}
+#addresses #main .page-content {
+  padding: 25px 10px;
+}
+.page-addresses .addresses-footer a {
+  color: #414141;
+}
+.page-addresses .addresses-footer a:hover {
+  color: #414141;
+}
+.page-addresses .addresses-footer a i {
+  font-size: 1rem;
+}
+.page-addresses .addresses-footer a span {
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-top: 0.625rem;
+}
+
+/*** My account landing page ***/
+
+.page-my-account #content .links {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: start;
+}
+.page-my-account #content .links a {
+  color: #777777;
+  display: inline-block;
+  float: left;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 5px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.page-my-account #content .links a:last-child {
+  margin: 0;
+}
+.page-my-account #content .links a span.link-item {
+  background: #fefdf7 none repeat scroll 0 0;
+  display: block;
+  float: left;
+  font-weight: normal;
+  height: 100%;
+  line-height: 35px;
+  padding: 10px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+.page-my-account #content .links a i {
+  color: #777777;
+  float: left;
+  font-size: 36px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  vertical-align: top;
+}
+.page-my-account #content .links a:hover {
+  color: #414141;
+}
+.page-my-account #content .links a:hover i {
+  color: #000000;
+}
+.linklist .blockcms-title a {
+  color:#414141;
+}
+.account-list a {
+  color:#777777;
+}
+.account-list a:hover {
+  color:#000000;
+}
+.blockcms-title,
+.myaccount-title,
+.myaccount-title a,
+.block-contact-title {
+  font-weight:700;
+  font-size:1rem;
+}
+
+#block_myaccount_infos .myaccount-title a {
+  color:#414141;
+}

@@ -1,0 +1,25 @@
+version: '2'
+services:
+  nginx:
+    build: docker-images/nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes_from:
+      - php-fpm
+    networks:
+      - front-tier
+
+  php-fpm:
+    build: docker-images/php-fpm
+    volumes:
+      - ./prestashop/:/html/
+    networks:
+      - front-tier
+      - back-tier
+
+networks:
+  front-tier:
+    driver: bridge
+  back-tier:
+    driver: bridge

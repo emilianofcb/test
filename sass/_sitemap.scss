@@ -1,0 +1,23 @@
+/* -------------------------- Start Sitemap page ------------------------------ */
+
+#sitemap .container-fluid {
+  border:1px solid #e5e5e5;
+  padding:25px 15px;
+}
+.sitemap ul li a {
+  line-height:22px;
+}
+.sitemap ul li ul.nested {
+  padding:0 15px !important;
+}
+@media (max-width: 991px) {
+  .sitemap .col-md-3 {
+    width:100%;
+  }
+}
+@media (max-width: 543px) {
+  #sitemap .container-fluid {
+    padding:15px 5px;
+  }
+}
+/* -------------------------- End Sitemap page ------------------------------ */

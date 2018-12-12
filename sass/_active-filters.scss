@@ -1,0 +1,33 @@
+.active_filters {
+  background:#fefdf7;
+  padding:10px;
+  margin-bottom:1.25rem;
+  float:left;
+  width:100%;
+}
+.active_filters .active-filter-title {
+  display:inline;
+  margin-right:0.625rem;
+  font-weight:600;
+  margin-bottom:0;
+  vertical-align:middle;
+}
+.active_filters ul {
+  display:inline;
+}
+.active_filters .filter-block {
+  color:#414141;
+  margin-right:0.625rem;
+  margin-bottom:0;
+  background:#fbf9f5 none repeat scroll 0 0;
+  padding:0.625rem;
+  display:inline-block;
+  font-size:0.8125rem;
+}
+.active_filters .filter-block .close {
+  color:#414141;
+  font-size:0.9375rem;
+  opacity:1;
+  margin-top:0.1875rem;
+  margin-left:0.3125rem;
+}

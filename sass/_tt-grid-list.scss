@@ -1,0 +1,44 @@
+/* ------------------------- Start TT - Grid/List ----------------------- */
+
+.grid-list {
+  padding:0;
+  margin-right:10px;
+}
+.grid-list #ttgrid,
+.grid-list #ttlist {
+  float:left;
+  margin:0 10px 0 0;
+  padding:0;
+  text-align:center;
+  color:#808080;
+  cursor:pointer;
+  font-size:0;
+  height:24px;
+  line-height:14px;
+  width:19px;
+}
+.grid-list #ttgrid {
+  background:url("../img/sprite.png") no-repeat scroll -11px -20px transparent;
+}
+.grid-list #ttlist {
+  background:url("../img/sprite.png") no-repeat scroll -70px -20px transparent;
+}
+.grid-list #ttgrid:hover,
+.grid-list #ttgrid.active {
+  background-position:-11px -69px;
+}
+.grid-list #ttlist:hover,
+.grid-list #ttlist.active {
+  background-position:-70px -69px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid-list {
+    width:18%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .grid-list {
+    width:23%;
+  }
+}
+/* ------------------------- End TT - Grid/List ----------------------- */

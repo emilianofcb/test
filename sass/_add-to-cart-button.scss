@@ -1,0 +1,239 @@
+/* add-to-cart button css*/
+
+#products .thumbnail-container .ttproduct-image,
+.products .thumbnail-container .ttproduct-image,
+.featured-products .thumbnail-container .ttproduct-image,
+.ttfeatured-products .thumbnail-container .ttproduct-image,
+.product-accessories .thumbnail-container .ttproduct-image,
+.ttbestseller-products .thumbnail-container .ttproduct-image,
+.ttnew-products .thumbnail-container .ttproduct-image,
+.ttspecial-products .thumbnail-container .ttproduct-image,
+.crossselling-product .thumbnail-container .ttproduct-image,
+.category-products .thumbnail-container .ttproduct-image,
+.view-product .thumbnail-container .ttproduct-image {
+  position:relative;
+}
+#products .thumbnail-container .ttproduct-image .ttproducthover,
+.products .thumbnail-container .ttproduct-image .ttproducthover,
+.featured-products .thumbnail-container .ttproduct-image .ttproducthover,
+.ttfeatured-products .thumbnail-container .ttproduct-image .ttproducthover,
+.product-accessories .thumbnail-container .ttproduct-image .ttproducthover,
+.ttbestseller-products .thumbnail-container .ttproduct-image .ttproducthover,
+.ttnew-products .thumbnail-container .ttproduct-image .ttproducthover,
+.ttspecial-products .thumbnail-container .ttproduct-image .ttproducthover,
+.crossselling-product .thumbnail-container .ttproduct-image .ttproducthover,
+.category-products .thumbnail-container .ttproduct-image .ttproducthover,
+.view-product .thumbnail-container .ttproduct-image .ttproducthover {
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-15px;
+  top:auto;
+  transition:all 400ms ease-in-out;
+  -webkit-transition:all 400ms ease-in-out;
+  -moz-transition:all 400ms ease-in-out;
+  -o-transition:all 400ms ease-in-out;
+  -ms-transition:all 400ms ease-in-out;
+  opacity:0;
+  -moz-opacity:0;
+  -khtml-opacity:0;
+  -webkit-opacity:0;
+}
+#products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.featured-products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.ttfeatured-products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.product-accessories .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.ttbestseller-products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.ttnew-products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.ttspecial-products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.crossselling-product .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.category-products .thumbnail-container:hover .ttproduct-image .ttproducthover,
+.view-product .thumbnail-container:hover .ttproduct-image .ttproducthover {
+  opacity:1;
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  -webkit-opacity:1;
+}
+@media(max-width:767px) {
+  #products .thumbnail-container .ttproduct-image .ttproducthover,
+  .products .thumbnail-container .ttproduct-image .ttproducthover,
+  .featured-products .thumbnail-container .ttproduct-image .ttproducthover,
+  .ttfeatured-products .thumbnail-container .ttproduct-image .ttproducthover,
+  .product-accessories .thumbnail-container .ttproduct-image .ttproducthover,
+  .ttbestseller-products .thumbnail-container .ttproduct-image .ttproducthover,
+  .ttnew-products .thumbnail-container .ttproduct-image .ttproducthover,
+  .ttspecial-products .thumbnail-container .ttproduct-image .ttproducthover,
+  .crossselling-product .thumbnail-container .ttproduct-image .ttproducthover,
+  .category-products .thumbnail-container .ttproduct-image .ttproducthover,
+  .view-product .thumbnail-container .ttproduct-image .ttproducthover {
+    opacity:1;
+    -moz-opacity:1;
+    -khtml-opacity:1;
+    -webkit-opacity:1;
+  }
+}
+#products .thumbnail-container .ttproducthover div .btn,
+.products .thumbnail-container .ttproducthover div .btn,
+.featured-products .thumbnail-container .ttproducthover div .btn,
+.ttfeatured-products .thumbnail-container .ttproducthover div .btn,
+.product-accessories .thumbnail-container .ttproducthover div .btn,
+.ttbestseller-products .thumbnail-container .ttproducthover div .btn,
+.ttnew-products .thumbnail-container .ttproducthover div .btn,
+.ttspecial-products .thumbnail-container .ttproducthover div .btn,
+.crossselling-product .thumbnail-container .ttproducthover div .btn,
+.category-products .thumbnail-container .ttproducthover div .btn,
+.view-product .thumbnail-container .ttproducthover div .btn {
+  float:left;
+  line-height:45px;
+  padding:0;
+  position:relative;
+  text-align:center;
+  height:45px;
+  width:45px;
+  background:transparent url("../img/product-sprite.png") no-repeat scroll 0 0;
+}
+#products .thumbnail-container .ttproducthover div .btn span,
+.products .thumbnail-container .ttproducthover div .btn span,
+.featured-products .thumbnail-container .ttproducthover div .btn span,
+.ttfeatured-products .thumbnail-container .ttproducthover div .btn span,
+.product-accessories .thumbnail-container .ttproducthover div .btn span,
+.ttbestseller-products .thumbnail-container .ttproducthover div .btn span,
+.ttnew-products .thumbnail-container .ttproducthover div .btn span,
+.ttspecial-products .thumbnail-container .ttproducthover div .btn span,
+.crossselling-product .thumbnail-container .ttproducthover div .btn span,
+.category-products .thumbnail-container .ttproducthover div .btn span,
+.view-product .thumbnail-container .ttproducthover div .btn span {
+  display:none;
+}
+#products .thumbnail-container .ttproducthover div .btn i,
+.products .thumbnail-container .ttproducthover div .btn i,
+.featured-products .thumbnail-container .ttproducthover div .btn i,
+.ttfeatured-products .thumbnail-container .ttproducthover div .btn i,
+.product-accessories .thumbnail-container .ttproducthover div .btn i,
+.ttbestseller-products .thumbnail-container .ttproducthover div .btn i,
+.ttnew-products .thumbnail-container .ttproducthover div .btn i,
+.ttspecial-products .thumbnail-container .ttproducthover div .btn i,
+.crossselling-product .thumbnail-container .ttproducthover div .btn i,
+.category-products .thumbnail-container .ttproducthover div .btn i,
+.view-product .thumbnail-container .ttproducthover div .btn i {
+  display:none;
+}
+#products .thumbnail-container .ttproducthover div,
+.products .thumbnail-container .ttproducthover div,
+.featured-products .thumbnail-container .ttproducthover div,
+.ttfeatured-products .thumbnail-container .ttproducthover div,
+.product-accessories .thumbnail-container .ttproducthover div,
+.ttbestseller-products .thumbnail-container .ttproducthover div,
+.ttnew-products .thumbnail-container .ttproducthover div,
+.ttspecial-products .thumbnail-container .ttproducthover div,
+.crossselling-product .thumbnail-container .ttproducthover div,
+.category-products .thumbnail-container .ttproducthover div,
+.view-product .thumbnail-container .ttproducthover div {
+  display:inline-block;
+  vertical-align:top;
+}
+#products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.featured-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.product-accessories .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.ttfeatured-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.crossselling-product .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.ttbestseller-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.ttnew-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.ttspecial-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.category-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button,
+.view-product .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button {
+  background-position:-11px -69px;
+}
+#products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.featured-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.product-accessories .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.ttfeatured-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.crossselling-product .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.ttbestseller-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.ttnew-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.ttspecial-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.category-products .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover,
+.view-product .thumbnail-container .ttproducthover div.tt-button-container .btn.ajax_add_to_cart_button:hover {
+  background-position:-76px -69px;
+}
+#products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.featured-products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.ttfeatured-products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.product-accessories .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.ttbestseller-products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.ttnew-products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.ttspecial-products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.crossselling-product .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.category-products .thumbnail-container .ttproducthover div.quick-view-block .btn,
+.view-product .thumbnail-container .ttproducthover div.quick-view-block .btn {
+  background-position:-11px -185px;
+}
+#products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.featured-products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.ttfeatured-products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.product-accessories .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.ttbestseller-products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.ttnew-products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.ttspecial-products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.crossselling-product .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.category-products .thumbnail-container .ttproducthover div.quick-view-block .btn:hover,
+.view-product .thumbnail-container .ttproducthover div.quick-view-block .btn:hover {
+  background-position:-76px -185px;
+}
+#products .thumbnail-container .ttproducthover div.compare .btn,
+.products .thumbnail-container .ttproducthover div.compare .btn,
+.featured-products .thumbnail-container .ttproducthover div.compare .btn,
+.ttfeatured-products .thumbnail-container .ttproducthover div.compare .btn,
+.product-accessories .thumbnail-container .ttproducthover div.compare .btn,
+.ttbestseller-products .thumbnail-container .ttproducthover div.compare .btn,
+.ttnew-products .thumbnail-container .ttproducthover div.compare .btn,
+.ttspecial-products .thumbnail-container .ttproducthover div.compare .btn,
+.crossselling-product .thumbnail-container .ttproducthover div.compare .btn,
+.category-products .thumbnail-container .ttproducthover div.compare .btn,
+.view-product .thumbnail-container .ttproducthover div.compare .btn {
+  background-position:-11px -127px;
+}
+#products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.featured-products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.ttfeatured-products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.product-accessories .thumbnail-container .ttproducthover div.compare .btn:hover,
+.ttbestseller-products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.ttnew-products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.ttspecial-products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.crossselling-product .thumbnail-container .ttproducthover div.compare .btn:hover,
+.category-products .thumbnail-container .ttproducthover div.compare .btn:hover,
+.view-product .thumbnail-container .ttproducthover div.compare .btn:hover {
+  background-position:-76px -127px;
+}
+#products .thumbnail-container .ttproducthover div.wishlist .btn,
+.products .thumbnail-container .ttproducthover div.wishlist .btn,
+.featured-products .thumbnail-container .ttproducthover div.wishlist .btn,
+.ttfeatured-products .thumbnail-container .ttproducthover div.wishlist .btn,
+.product-accessories .thumbnail-container .ttproducthover div.wishlist .btn,
+.ttbestseller-products .thumbnail-container .ttproducthover div.wishlist .btn,
+.ttnew-products .thumbnail-container .ttproducthover div.wishlist .btn,
+.ttspecial-products .thumbnail-container .ttproducthover div.wishlist .btn,
+.crossselling-product .thumbnail-container .ttproducthover div.wishlist .btn,
+.category-products .thumbnail-container .ttproducthover div.wishlist .btn,
+.view-product .thumbnail-container .ttproducthover div.wishlist .btn {
+  background-position:-11px -11px;
+}
+#products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.featured-products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.ttfeatured-products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.product-accessories .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.ttbestseller-products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.ttnew-products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.ttspecial-products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.crossselling-product .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.category-products .thumbnail-container .ttproducthover div.wishlist .btn:hover,
+.view-product .thumbnail-container .ttproducthover div.wishlist .btn:hover {
+  background-position:-76px -11px;
+}

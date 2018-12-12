@@ -1,0 +1,32 @@
+.js-payment-binary {
+  display: none;
+}
+.js-payment-binary .accept-cgv {
+  display: none;
+}
+.js-payment-binary.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.js-payment-binary.disabled::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+.js-payment-binary.disabled .accept-cgv {
+  display: block;
+}
+
+@media (max-width: 543px) {
+
+  #payment-confirmation button {
+    font-size: 0.875rem;
+  }
+  #payment-confirmation button.btn {
+    white-space: normal;
+  }
+}

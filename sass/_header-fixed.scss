@@ -1,0 +1,53 @@
+/* ------ header fixed css ------ */
+
+#header .header-top.fixed {
+  background:#faf8f5;
+  animation:1s ease 0s normal both 1 running fixedmenu;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+  float:left;
+  left:0;
+  margin:0;
+  position:fixed !important;
+  right:0;
+  top:0;
+  transition:all 400ms ease 0s;
+  -webkit-transition:all 400ms ease 0s;
+  -moz-transition:all 400ms ease 0s;
+  -o-transition:all 400ms ease 0s;
+  -ms-transition:all 400ms ease 0s;
+  width:100%;
+  z-index:999;
+  border-radius:0;
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  -khtml-border-radius:0;
+}
+.header-top.fixed .top-menu .sub-menu {
+  top:60px!important;
+}
+@-webkit-keyframes fixedmenu {
+  0% {
+    top:-100%;
+  }
+  100% {
+    top:0;
+  }
+}
+@-moz-keyframes fixedmenu {
+  0% {
+    top:-100%;
+  }
+  100% {
+    top:0;
+  }
+}
+@keyframes fixedmenu {
+  0% {
+    top:-100%;
+  }
+  100% {
+    top:0;
+  }
+}

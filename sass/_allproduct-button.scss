@@ -1,0 +1,21 @@
+/* --------------------- Start All Product Button ---------------------- */
+
+.allproduct {
+  float:left;
+  text-align:center;
+  display:none;
+  width:100%;
+}
+.allproduct > a {
+  background:#ffa247;
+  color:#ffffff;
+  display:inline-block;
+  float:none;
+  padding:8px 25px;
+  vertical-align:top;
+}
+.allproduct > a:hover {
+  background:#333333;
+  color:#ffffff;
+}
+/* --------------------- End All Product Button ---------------------- */

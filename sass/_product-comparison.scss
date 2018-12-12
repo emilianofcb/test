@@ -1,0 +1,183 @@
+/*--------------------- start Product Comaprasion Css ---------------------------*/
+
+#module-blockwishlist-mywishlist .page-content {
+  padding:0;
+  border:none;
+}
+#module-ttproductwishlist-mywishlist th {
+  text-align:left;
+}
+#product_comparison .tt_empty.compare_extra_information {
+  vertical-align:bottom;
+}
+#product_comparison .tt_empty.compare_extra_information > span {
+  font-weight:bold;
+}
+table#product_comparison {
+  border:1px solid #e4e1df;
+  background:#fff;
+}
+table#product_comparison th,
+table#product_comparison td {
+  border-color:#eeeeee;
+}
+table#product_comparison tbody tr td.product-block {
+  vertical-align:top;
+  padding:15px;
+  text-align:center;
+}
+table#product_comparison tbody tr td.product-block .product-title a {
+  white-space:normal !important;
+}
+table#product_comparison tbody tr td.td_empty,
+table#product_comparison tbody tr td.feature-name,
+table#product_comparison tbody tr.comparison_header {
+  background:#f6f6f6;
+  color:#808080;
+}
+table#product_comparison tbody tr td.comparison_infos {
+  text-align:center;
+  background:transparent;
+}
+table#product_comparison tbody tr td.td_empty {
+  vertical-align:bottom;
+}
+table#product_comparison tbody tr td.td_empty > span {
+  font:600 18px/22px"Poppins",
+  Helvetica,
+  sans-serif;
+  text-transform:uppercase;
+  color:#555454;
+}
+table#product_comparison .remove {
+  padding:0 0 15px 0;
+}
+table#product_comparison .remove a {
+  font-size:23px;
+  line-height:23px;
+  color:#666;
+}
+table#product_comparison .remove a:hover {
+  color:#000;
+}
+table#product_comparison .thumbnail-container {
+  display:inline-block;
+  position:relative;
+}
+table#product_comparison .thumbnail-container .product-thumbnail {
+  padding:5px;
+  border:1px solid #e4e1df;
+  display:inline-block;
+  margin:0 0 10px 0;
+}
+table#product_comparison .thumbnail-container .product-thumbnail img {
+  width:100%;
+  max-width:250px;
+}
+table#product_comparison .product-price-and-shipping {
+  margin-bottom:10px;
+}
+table#product_comparison .product-desc,
+table#product_comparison .highlighted-informations {
+  padding:0 0 10px 0;
+  margin:0;
+}
+table#product_comparison .product-rating {
+  margin:0 auto;
+  overflow:hidden;
+}
+.footer_link {
+  margin:0 0 20px 0;
+}
+#tdcompare-modal .modal-dialog .modal-header .modal-msg {
+  font-size:16px;
+  line-height:20px;
+  color:#000000;
+}
+#tdcompare-modal .modal-dialog .modal-footer {
+  text-align:center;
+}
+#tdcompare-modal .modal-dialog .modal-footer button {
+  margin:0 5px;
+}
+@media (max-width: 991px) {
+  table#product_comparison tbody tr td.td_empty span {
+    font-size:14px;
+  }
+  table#product_comparison tbody tr td.product-block {
+    padding:10px;
+  }
+}
+@media (max-width: 767px) {
+  #product_comparison table,
+  #product_comparison thead,
+  #product_comparison tbody,
+  #product_comparison th,
+  #product_comparison td,
+  #product_comparison tr {
+    display:block;
+  }
+  #product_comparison thead tr {
+    position:absolute;
+    top:-9999px;
+    left:-9999px;
+  }
+  #product_comparison tr {
+    overflow:hidden;
+  }
+  #product_comparison tr:last-child {
+    border-bottom:none;
+  }
+  #product_comparison tr:last-child td {
+    border-bottom:none;
+  }
+  #product_comparison td {
+    border:none;
+    position:relative;
+    white-space:normal;
+    float:left;
+    width:33.33%;
+  }
+  #product_comparison td.feature-name {
+    width:100%;
+    text-align:center;
+    margin:15px 0 0;
+  }
+  #product_comparison .tt_empty.compare_extra_information {
+    border-bottom:1px solid #e4e1df;
+    width:100%;
+  }
+  #product_comparison td.td_empty {
+    width:100% !important;
+    clear:both;
+  }
+  #product_comparison td:last-child {
+    border-bottom:none;
+  }
+  #product_comparison .comparison_feature .feature-name {
+    width:100%;
+    float:none;
+    clear:both;
+  }
+}
+@media (max-width: 543px) {
+  #product_comparison td {
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  #product_comparison .comparison_feature td {
+    float:left;
+    width:50%;
+  }
+  #product_comparison .comparison_feature .feature-name {
+    width:100%;
+    clear:both;
+  }
+  #product_comparison .comparison_feature .product-name {
+    width:50%;
+    float:left;
+    display:block;
+  }
+}
+/*--------------------- End Product Comaprasion Css ---------------------------*/

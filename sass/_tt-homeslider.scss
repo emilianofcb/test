@@ -1,0 +1,22 @@
+/* ---------------------- Start TT - Homeslider ------------------------ */
+
+.homeslider .direction .carousel-control {
+  opacity:0;
+  transition:300ms ease-in-out all;
+  -webkit-transition:300ms ease-in-out all;
+  -moz-transition:300ms ease-in-out all;
+  -o-transition:300ms ease-in-out all;
+  -ms-transition:300ms ease-in-out all;
+}
+.homeslider:hover .direction .carousel-control {
+  opacity:1;
+}
+@media (max-width: 543px) {
+  .carousel-control.left {
+    left:20px;
+  }
+  .carousel-control.right {
+    right:20px;
+  }
+}
+/* ---------------------- End TT - Homeslider ------------------------ */

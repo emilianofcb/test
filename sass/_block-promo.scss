@@ -1,0 +1,56 @@
+.block-promo .promo-code {
+  padding:1.60rem;
+  background:#ebebeb;
+}
+.block-promo .promo-code .alert-danger {
+  position:relative;
+  margin-top:1.25rem;
+  background:#ff4c4c;
+  color:white;
+  display:none;
+}
+.block-promo .promo-code .alert-danger::after {
+  bottom:100%;
+  left:10%;
+  border:solid transparent;
+  content:" ";
+  height:0;
+  width:0;
+  position:absolute;
+  pointer-events:none;
+  border-bottom-color:#ff4c4c;
+  border-width:10px;
+  margin-left:-10px;
+}
+.block-promo .promo-input {
+  color:#414141;
+  border:#777777 1px solid;
+  height:2.5rem;
+  text-indent:0.625rem;
+  width:60%;
+}
+.block-promo .promo-input + button {
+  margin-top:-4px;
+  text-transform:capitalize;
+}
+.block-promo .cart-summary-line .label,
+.block-promo .promo-name {
+  color:#ff9a52;
+  font-weight:600;
+}
+.block-promo .cart-summary-line .label a,
+.block-promo .promo-name a {
+  font-weight:normal;
+  color:#414141;
+  display:inline-block;
+}
+.block-promo .promo-code-button {
+  padding-left:1.25rem;
+  margin-bottom:1.25rem;
+  display:inline-block;
+}
+.block-promo.promo-highlighted {
+  padding:1.25rem;
+  padding-bottom:0;
+  margin-bottom:0;
+}

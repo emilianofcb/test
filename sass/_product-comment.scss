@@ -1,0 +1,183 @@
+/*---------------- Start Product Comment Block Css -------------------*/
+
+.star {
+  cursor:pointer;
+  display:inline-block;
+  float:none;
+  vertical-align:top;
+  font-size:16px;
+  margin:0 -2px;
+}
+.star a {
+  display:none;
+}
+.star::after {
+  content:"\E838";
+  font-family:"Material Icons";
+  color:#d9d9d9;
+}
+.star_on::after {
+  content:"\E838";
+  font-family:"Material Icons";
+  color:#fbaf5d;
+}
+.star_hover::after {
+  color:#fbaf5d;
+  content:"\E838";
+  font-family:"Material Icons";
+}
+#id_new_comment_form {
+  background:#f8f8f8 none repeat scroll 0 0;
+  float:left;
+  padding:15px;
+  width:100%;
+}
+#ttcomment-modal .modal-dialog {
+  max-width:700px;
+}
+#ttcomment-modal .modal-dialog .modal-header h2 {
+  font-size:16px;
+  line-height:20px;
+  color:#000000;
+}
+#ttcomment-modal .modal-dialog .modal-body .product .product_desc {
+  line-height:18px;
+  color:#808080;
+}
+#ttcomment-modal .modal-dialog .modal-body .product .product_desc .product_name {
+  padding:10px 0 5px;
+  color:#000000;
+  margin:0;
+}
+#ttcomment-modal .modal-dialog .modal-body #criterions_list {
+  border-bottom:1px solid #e6e6e6;
+  padding-bottom:15px;
+  margin-bottom:15px;
+  list-style-type:none;
+  padding:0;
+}
+#ttcomment-modal .modal-dialog .modal-body #criterions_list li {
+  margin-bottom:10px;
+}
+#ttcomment-modal .modal-dialog .modal-body #criterions_list label {
+  float:left;
+  margin:0 10px 0 0;
+  min-width:100px;
+  text-align:left;
+}
+#ttcomment-modal .modal-dialog .modal-body #criterions_list .star_content {
+  float:left;
+}
+#ttcomment-modal .modal-dialog .modal-footer {
+  text-align:center;
+}
+#ttcomment-modal .modal-dialog .modal-footer button {
+  margin:0 5px;
+}
+#product_comments_block_tab .comment_helpful button {
+  background:rgba(0,
+          0,
+          0,
+          0) none repeat scroll 0 0;
+  padding:0;
+  border:none;
+  line-height:normal;
+}
+#product_comments_block_tab .comment_helpful .usefulness_btn.usefull::before {
+  content:"\E8DC";
+  font-family:"Material Icons";
+  vertical-align:middle;
+}
+#product_comments_block_tab .comment_helpful .usefulness_btn.notusefull::before {
+  content:"\E8DB";
+  font-family:"Material Icons";
+  vertical-align:middle;
+}
+#product_comments_block_tab .comment_helpful .usefulness_btn.usefull:hover {
+  color:#008000;
+}
+#product_comments_block_tab .comment_helpful .usefulness_btn.notusefull:hover {
+  color:#ff0000;
+}
+#product_comments_block_tab .report_btn {
+  cursor:pointer;
+  float:right;
+}
+#product_comments_block_tab .comment_helpful {
+  float:left;
+}
+#product-comment .comment .comment_details > ul {
+  float:left;
+  margin:0;
+  width:100%;
+}
+#product_comments_block_tab .report_btn:hover {
+  text-decoration:underline;
+  color:#000000;
+}
+#product-comment #new_comment_tab_btn {
+  white-space:normal;
+}
+.comments_advices i {
+  font-size:16px;
+  line-height:normal;
+  vertical-align:top;
+}
+#product_comments_block_extra .comments_note {
+  border-right:1px solid #cccccc;
+  display:inline-block;
+  float:none;
+  padding:0 10px 0 0;
+  vertical-align:top;
+}
+#product_comments_block_extra .comments_advices {
+  display:inline-block;
+  float:none;
+  vertical-align:top;
+}
+#product_comments_block_extra .comments_advices a {
+  border-right:1px solid #cccccc;
+  float:left;
+  padding:0 10px
+}
+#product_comments_block_extra .comments_advices a:last-child {
+  border:medium none;
+}
+#ttcomment-modal img {
+  border:1px solid #e4e1df;
+  max-width:100%;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  -khtml-border-radius:20px;
+}
+#new_comment_form_error.error {
+  float:left;
+  width:100%;
+}
+#new_comment_form_error > ul {
+  float:left;
+  margin:0;
+  padding:0;
+}
+#new_comment_form_error li {
+  color:#a94442;
+  font-size:13px;
+}
+@media (max-width: 543px) {
+  .comments_advices .reviews {
+    float:left;
+    margin:0 0 5px;
+    width:100%;
+  }
+  #product_comments_block_extra .comments_note {
+    border-right:none;
+    padding:0;
+    margin:0 0 5px;
+  }
+  #product_comments_block_extra .comments_advices a {
+    border-right:none;
+    padding:0;
+  }
+}
+/*---------------- End Product Comment Block Css -------------------*/

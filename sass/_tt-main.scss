@@ -1,0 +1,30 @@
+/*** MAIN ***/
+
+#main .page-header {
+  margin-bottom:1.5625rem;
+}
+#main .page-content {
+  margin-bottom:1.5625rem;
+}
+#main .page-content h6 {
+  margin-bottom:1.125rem;
+  font-weight:normal;
+}
+#main .page-content #notifications {
+  margin-left:-15px;
+  margin-right:-15px;
+}
+#main .page-footer {
+  margin-bottom:0;
+  float:left;
+  width:100%;
+}
+#main .page-footer .text-sm-center a {
+  padding:6px 20px;
+}
+#notifications ul {
+  margin-bottom:0;
+}
+#main ul {
+  padding:0;
+}

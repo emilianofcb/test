@@ -1,0 +1,204 @@
+.block_newsletter {
+  font-size:0.875rem;
+  margin-bottom:0;
+}
+.block_newsletter form {
+  position:relative;
+}
+.block_newsletter form input[type=email] {
+  border:none;
+  padding:10px;
+  min-width:255px;
+  background:#ebebeb;
+  color:#777777;
+}
+.block_newsletter form input[type=email]:focus {
+  outline:3px #000000 solid;
+  color:#414141;
+  background:white;
+}
+.block_newsletter form input[type=email]:focus + button .search {
+  color:#000000;
+}
+.block_newsletter form input[type=email]::-webkit-input-placeholder {
+  color:rgba(172,
+          170,
+          166,
+          0.5);
+  text-indent:0.625rem;
+}
+.block_newsletter form input[type=email]::-moz-placeholder {
+  color:rgba(172,
+          170,
+          166,
+          0.5);
+  text-indent:0.625rem;
+}
+.block_newsletter form input[type=email]:-moz-placeholder {
+  color:rgba(172,
+          170,
+          166,
+          0.5);
+  text-indent:0.625rem;
+}
+.block_newsletter form input[type=email]:-ms-input-placeholder {
+  color:rgba(172,
+          170,
+          166,
+          0.5);
+  text-indent:0.625rem;
+}
+.block_newsletter form button[type=submit] {
+  position:absolute;
+  background:none;
+  border:none;
+  bottom:0.3125rem;
+  right:0.125rem;
+  color:#878787;
+}
+.block_newsletter form button[type=submit] .search:hover {
+  color:#000000;
+}
+.block_newsletter p {
+  font-size:13px;
+}
+.block_newsletter form .input-wrapper {
+  overflow:hidden;
+}
+.block_newsletter form input[type=email] {
+  padding:10px 15px 10px 10px;
+  width:100%;
+}
+.block_newsletter form input[type=email]:focus {
+  padding:10px 15px 10px 10px;
+  outline:0;
+}
+
+.block_newsletter form input {
+  height:42px;
+}
+
+.newsletter-desc {
+  display:none;
+}
+
+/*--------------------------- Start newsletter --------------------------*/
+
+#newslatter {
+  float:left;
+}
+#footer #newslatter #block_content {
+  display:inline-block;
+  float:none;
+  overflow:hidden;
+  position:relative;
+  vertical-align:top;
+  width:100%;
+}
+#block_content .col-xs-12 {
+  padding:0;
+}
+#block_content .alert {
+  margin:5px 0 0;
+  padding:10px;
+}
+@media (max-width: 991px) {
+  #footer #newslatter #block_content {
+    padding:0 10px;
+  }
+}
+#footer #newslatter #block_content .tt-desc {
+  color:#333333;
+  margin:0 0 20px;
+}
+#footer #newslatter #block_content .ttinput_newsletter {
+  float:left;
+  position:relative;
+  width:100%;
+}
+#footer #newslatter #block_content .ttinput_newsletter .input-wrapper > input {
+  background:#ffffff none repeat scroll 0 0;
+  border-color:#ffffff;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -khtml-border-radius:4px;
+  color:#888888;
+  float:left;
+  height:36px;
+  padding:10px 15px;
+  width:100%;
+  border:none;
+}
+@media (max-width: 991px) {
+  #footer #newslatter #block_content .ttinput_newsletter .input-wrapper > input {
+    width:96%;
+  }
+}
+#footer #newslatter #block_content .ttinput_newsletter .btn {
+  background:#ff4fa3 none repeat scroll 0 0;
+  border:medium none;
+  border-radius:0 4px 4px 0;
+  -moz-border-radius:0 4px 4px 0;
+  -webkit-border-radius:0 4px 4px 0;
+  -khtml-border-radius:0 4px 4px 0;
+  color:#ffffff;
+  float:left;
+  letter-spacing:1px;
+  padding:8px 12px 4px;
+  position:absolute;
+  right:0;
+  text-align:center;
+  transition:all 200ms ease-in-out 0s;
+  -webkit-transition:all 200ms ease-in-out 0s;
+  -moz-transition:all 200ms ease-in-out 0s;
+  -o-transition:all 200ms ease-in-out 0s;
+  -ms-transition:all 200ms ease-in-out 0s;
+  height:36px;
+}
+#footer #newslatter #block_content .ttinput_newsletter .btn:hover {
+  background:#ffa247 none repeat scroll 0 0;
+  color:#ffffff;
+}
+@media (max-width: 991px) {
+  #index #wrapper .breadcrumb {
+    display:none!important;
+  }
+  #footer #newslatter #block_content .ttinput_newsletter .input-wrapper > input {
+    width:95%;
+    padding:9px 40px 9px 10px;
+  }
+}
+@media (max-width: 991px) {
+  #footer {
+    padding:0;
+    min-height:auto;
+    background:rgba(0,
+            0,
+            0,
+            0) url("../img/footer-bg.jpg") no-repeat scroll 0 0;
+  }
+  .block-social ul li {
+    float:none;
+    display:inline-block;
+  }
+}
+@media (max-width: 543px) {
+  .block_newsletter .row {
+    margin:0 -15px;
+  }
+  .block_newsletter {
+    padding:20px;
+  }
+}
+/*--------------------------- End newsletter --------------------------*/
+
+@media (max-width: 1199px) {
+  .block_newsletter form input[type=email] {
+    padding:10px 15px 10px 10px;
+    min-width:235px;
+  }
+  .block_newsletter form input[type=email]:focus {
+     padding:10px 15px 10px 10px;
+   }
+}

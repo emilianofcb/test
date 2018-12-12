@@ -1,0 +1,72 @@
+/* -----------------------------Start Owl-carousel ------------------------- */
+
+/* line 9, ../../sass/templatetrip/custom.scss */
+
+.owl-wrapper-outer {
+  float:left;
+  width:100%;
+  overflow:hidden;
+}
+/* line 13, ../../sass/templatetrip/custom.scss */
+
+.owl-wrapper-outer .owl-wrapper {
+  position:relative;
+}
+/* line 15, ../../sass/templatetrip/custom.scss */
+
+.owl-wrapper-outer .owl-wrapper:after {
+  clear:both;
+  content:".";
+  display:block;
+  height:0;
+  line-height:0;
+  visibility:hidden;
+}
+/* line 23, ../../sass/templatetrip/custom.scss */
+
+.owl-wrapper-outer .owl-wrapper .owl-item {
+  float:left;
+}
+.owl-wrapper-outer .owl-wrapper .owl-item .product-miniature {
+  width:100%;
+  padding:15px;
+}
+/* line 29, ../../sass/templatetrip/custom.scss */
+
+.owl-buttons {
+  float:none;
+  padding:0;
+  text-align:center;
+  display:inline-block;
+  vertical-align:top;
+}
+/* line 36, ../../sass/templatetrip/custom.scss */
+
+.owl-buttons div {
+  border:1px solid #ebe0d0;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  -khtml-border-radius:50%;
+  cursor:pointer;
+  float:left;
+  font-size:0;
+  height:31px;
+  line-height:40px;
+  margin:0 2px;
+  padding:0;
+  position:relative;
+  vertical-align:top;
+  width:31px;
+}
+.owl-buttons div i {
+  display:none;
+}
+.owl-buttons div:hover {
+  border-color:#333333;
+  background:#333333;
+}
+.owl-buttons div:hover i {
+  color:#ffffff;
+}
+/* -----------------------------End Owl-carousel ------------------------- */

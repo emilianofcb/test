@@ -1,0 +1,117 @@
+/*--------------------------- Start Homepage tab --------------------------*/
+
+#hometab {
+  float:left;
+  margin:0 0 60px;
+  position:relative;
+  width:100%;
+}
+@media (max-width: 992px) {
+  #hometab {
+    margin:0 0 30px;
+  }
+}
+#hometab .home-tab-content .tab-pane.active {
+  display:block;
+}
+#hometab .home-tab-content .tab-pane {
+  display:none;
+}
+#hometab .tab-title {
+  border:medium none;
+  color:#333333;
+  font:500 17px/27px"Poppins",
+  Helvetica,
+  sans-serif;
+  letter-spacing:0.6px;
+  margin:0;
+  outline:medium none;
+  padding:4px 15px;
+  position:relative;
+  text-transform:capitalize;
+}
+#hometab .tabs .nav-tabs .nav-link.active .tab-title,
+#hometab .tabs .nav-tabs .nav-item:hover .nav-link .tab-title {
+  color:#ffa247;
+}
+#hometab .ttfeatured-products,
+#hometab .ttbestseller-products,
+#hometab .ttnew-products {
+  float:left;
+  width:100%;
+  padding:0;
+}
+#hometab .tabs .nav-tabs {
+  border:none;
+  text-align:center;
+}
+#hometab .tabs .nav-tabs .nav-item {
+  float:none;
+  display:inline-block;
+  margin:0;
+  position:relative;
+  z-index: -1;
+}
+@media(max-width:767px){
+
+  #hometab .tab-title {
+    padding:4px 10px;
+  }
+}
+@media (max-width: 543px) {
+  #hometab .tabs .nav-tabs .nav-item:first-child::before,
+  #hometab .tabs .nav-tabs .nav-item:last-child::after {
+    border:none;
+  }
+  #hometab .tab-title {
+    font-size:15px;
+  }
+}
+#hometab .tabs .nav-tabs .nav-link {
+  margin:0;
+  padding:0;
+  border:none;
+  line-height:32px;
+  transition:all 400ms ease-in-out 0s;
+  -webkit-transition:all 400ms ease-in-out 0s;
+  -moz-transition:all 400ms ease-in-out 0s;
+  -o-transition:all 400ms ease-in-out 0s;
+  -ms-transition:all 400ms ease-in-out 0s;
+  letter-spacing:normal;
+  z-index:999;
+  position:relative;
+  background:none;
+}
+#hometab .tabs .nav-tabs .nav-link::after {
+  border-top:1px solid #c7c7c7;
+  content:"";
+  position:absolute;
+  right:-4px;
+  top:17px;
+  width:8px;
+}
+#hometab .tabs .nav-tabs .nav-item:last-child .nav-link::after {
+  border:none;
+}
+#hometab .tabs {
+  padding:0;
+  margin:0;
+}
+.featureli,
+.newli,
+.bestsellerli {
+  list-style:outside none none;
+}
+@media (max-width: 543px) {
+  #hometab .tabs .nav-tabs .nav-item {
+    width:100%;
+    margin:0 0 5px;
+  }
+  #hometab .tabs .nav-tabs .nav-link {
+    margin:0;
+  }
+  #hometab .tabs .nav-tabs .nav-link::after {
+    display:none;
+  }
+}
+/*--------------------------- End Homepage tab --------------------------*/

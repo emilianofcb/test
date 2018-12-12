@@ -1,0 +1,60 @@
+/* ------------------ Start TT - CMS Right banner block --------------------- */
+
+#ttcmsrightbanner .ttrightbannerblock .ttbanner .ttrightbanner .ttrightbanner-img a img {
+  max-width:100%;
+}
+#ttcmsrightbanner .ttrightbannerblock .ttbanner .ttrightbanner1.ttrightbanner {
+  padding-bottom:30px;
+}
+#ttcmsrightbanner .ttrightbannerblock .ttbanner .ttrightbanner .ttrightbanner-img > a::after {
+  background:rgba(255,
+          255,
+          255,
+          0.4) none repeat scroll 0 0;
+  content:"";
+  height:100%;
+  left:0;
+  opacity:0;
+  position:absolute;
+  top:0;
+  transform:rotateX(180deg);
+  -webkit-transform:rotateX(180deg);
+  -moz-transform:rotateX(180deg);
+  -o-transform:rotateX(180deg);
+  -ms-transform:rotateX(180deg);
+  transition:all 0.5s ease 0s;
+  -webkit-transition:all 0.5s ease 0s;
+  -moz-transition:all 0.5s ease 0s;
+  -o-transition:all 0.5s ease 0s;
+  -ms-transition:all 0.5s ease 0s;
+  width:100%;
+}
+#ttcmsrightbanner .ttrightbannerblock .ttbanner .ttrightbanner .ttrightbanner-img > a {
+  display:block;
+  overflow:hidden;
+  position:relative;
+}
+#ttcmsrightbanner .ttrightbannerblock .ttbanner .ttrightbanner:hover .ttrightbanner-img > a::after {
+  opacity:1;
+  transform:rotateX(0deg);
+  -webkit-transform:rotateX(0deg);
+  -moz-transform:rotateX(0deg);
+  -o-transform:rotateX(0deg);
+  -ms-transform:rotateX(0deg);
+}
+@media (max-width: 1199px) {
+  #ttcmsrightbanner {
+    padding:0 10px;
+  }
+  #ttcmsrightbanner .ttrightbannerblock .ttbanner .ttrightbanner1.ttrightbanner {
+    padding-bottom:20px;
+  }
+}
+@media (max-width: 543px) {
+  #ttcmsrightbanner {
+    float:left;
+    width:100%;
+    text-align:center;
+  }
+}
+/* ------------------ End TT - CMS Right banner block --------------------- */

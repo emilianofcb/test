@@ -1,0 +1,184 @@
+/* ------------------------------------ Start TT - CMS testimonial ------------------------------- */
+
+#ttcmstestimonial {
+  margin:0;
+  float:right;
+  text-align:center;
+}
+#ttcmstestimonial .title_block {
+  display:none;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #ttcmstestimonial {
+    padding:0 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #ttcmstestimonial {
+    display:inline-block;
+    float:none;
+    margin:0 auto 20px;
+    width:50%;
+  }
+}
+@media (max-width: 767px) {
+  #ttcmstestimonial {
+    width:100%;
+    margin:0 0 20px;
+  }
+}
+#ttcmstestimonial .tttestimonial-content {
+  padding:0;
+}
+#ttcmstestimonial .tttestimonial-content ul {
+  float:left;
+  width:100%;
+  margin:0;
+}
+#ttcmstestimonial .tttestimonial-content ul li .tttestimonial-main {
+  background:#58bce3 none repeat scroll 0 0;
+  border-radius:47% 37% 30% 25%;
+  -moz-border-radius:47% 37% 30% 25%;
+  -webkit-border-radius:47% 37% 30% 25%;
+  -khtml-border-radius:47% 37% 30% 25%;
+  float:left;
+  margin-top:45px;
+  width:100%;
+  position:relative;
+}
+#ttcmstestimonial .tttestimonial-content ul li .testimonial-image {
+  border:4px solid #fdc337;
+  border-radius:40px 35px 20px 20px;
+  -moz-border-radius:40px 35px 20px 20px;
+  -webkit-border-radius:40px 35px 20px 20px;
+  box-shadow:3px 3px 5px 0 rgba(170,
+          170,
+          170,
+          0.3);
+  height:86px;
+  left:0;
+  margin:auto;
+  padding:0;
+  position:absolute;
+  right:0;
+  text-align:center;
+  top:-40px;
+  width:86px;
+  z-index:9;
+  overflow:hidden;
+}
+@media (max-width: 767px) {
+  #ttcmstestimonial .tttestimonial-content ul li .testimonial-image {
+    display:inline-block;
+    float:none;
+    text-align:right;
+  }
+}
+#ttcmstestimonial .tttestimonial-content ul li .testimonial-image > img {
+  float:left;
+  height:100%;
+  width:100%;
+  border-radius:40px 35px 20px 20px;
+  -moz-border-radius:40px 35px 20px 20px;
+  -webkit-border-radius:40px 35px 20px 20px;
+}
+#ttcmstestimonial .tttestimonial-content ul li .testimonial-content {
+  float:left;
+  margin:20px 0;
+  padding:40px 40px 50px;
+  text-align:center;
+}
+#ttcmstestimonial .tttestimonial-content ul li .testimonial-content .testimonial-desc p {
+  color:#ffffff;
+  font-size:13px;
+  margin:0;
+}
+#ttcmstestimonial .tttestimonial-content ul li .testimonial-content .ttdesignation {
+  display:none;
+}
+#ttcmstestimonial .tttestimonial-content ul li .testimonial-content .testimonial-user-title > h4 {
+  color:#ffffff;
+  font-family:lilita one;
+  font-size:15px;
+  letter-spacing:0.4px;
+  margin:5px 0 10px;
+  padding:0 0 10px;
+  position:relative;
+  text-transform:capitalize;
+}
+#ttcmstestimonial .tttestimonial-content .owl-controls {
+  bottom:20px;
+  left:0;
+  position:absolute;
+  right:0;
+  text-align:center;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #ttcmstestimonial .tttestimonial-content .owl-controls {
+    bottom:10px;
+  }
+  #ttcmstestimonial .tttestimonial-content ul li .testimonial-content {
+    padding:20px 40px 15px;
+  }
+  #ttcmstestimonial .tttestimonial-content ul li .testimonial-content .testimonial-user-title > h4 {
+    margin:5px 0 0;
+  }
+}
+#ttcmstestimonial .tttestimonial-content .owl-controls .owl-pagination {
+  float:left;
+  width:100%;
+  text-align:center;
+  margin:0;
+}
+#ttcmstestimonial .tttestimonial-content .owl-controls .owl-pagination .owl-page {
+  border:2px solid #ffffff;
+  display:inline-block;
+  float:none;
+  height:12px;
+  cursor:pointer;
+  margin:0 5px 0 0;
+  width:12px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  -khtml-border-radius:50%;
+}
+#ttcmstestimonial .tttestimonial-content .owl-controls .owl-pagination .owl-page:last-child {
+  margin:0;
+}
+#ttcmstestimonial .tttestimonial-content .owl-controls .owl-pagination .owl-page .owl-numbers {
+  display:none;
+}
+#ttcmstestimonial .tttestimonial-content .owl-controls .owl-pagination .owl-page:hover,
+#ttcmstestimonial .tttestimonial-content .owl-controls .owl-pagination .owl-page.active {
+  background:#ffffff;
+}
+@media (max-width: 543px) {
+  #ttcmstestimonial .tttestimonial-content ul li .testimonial-content {
+    padding:20px 40px 30px;
+  }
+  #ttcmstestimonial .tttestimonial-content ul li .testimonial-content .testimonial-user-title > h4 {
+    margin:5px 0 0;
+  }
+}
+/* ------------------------------------ End TT - CMS testimonial ------------------------------- */
+
+.container.col-sm-12.tttestimonial-banner.clearfix {
+  padding:0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tttestimonial-banner .row {
+    margin:0 -10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container.col-sm-12.tttestimonial-banner.clearfix {
+    text-align:center;
+  }
+}
+@media (max-width: 543px) {
+  .container.col-sm-12.tttestimonial-banner.clearfix {
+    float:left;
+    width:100%;
+  }
+}

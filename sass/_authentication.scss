@@ -1,0 +1,32 @@
+#authentication .tooltip.tooltip-bottom {
+  padding: 0;
+  margin: 0;
+}
+#authentication .custom-checkbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+}
+#authentication .custom-checkbox label {
+  padding-left: 0.625rem;
+}
+#authentication[data-action="show-password"] {
+  background: #878787;
+}
+#identity .radio-inline,
+#authentication .radio-inline {
+  padding: 0;
+}
+#identity .radio-inline .custom-radio,
+#authentication .radio-inline .custom-radio {
+  margin-right: 0;
+}
+#authentication #content-wrapper {
+  float: left;
+  width: 100%;
+}
