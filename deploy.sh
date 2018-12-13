@@ -19,7 +19,7 @@ cp -r $WORKSPACE $VERSIONS_DIR/$BUILD_TAG
 
 if [ -d "$PROJECT_DIR" ]; then
 	echo "Stop Docker"
-	cd $PROJECT_DIR && docker-compose stop
+	cd $PROJECT_DIR && docker-compose down
 
 	echo "Unlink old version"
 	cd $HOME_DIR && unlink $PROJECT_NAME
@@ -32,4 +32,6 @@ echo "Set environment parameters for db connection"
 cp $PROJECT_DIR/config/parameters.$ENV.php $PROJECT_DIR/prestashop/app/config/parameters.php
 
 echo "Start Docker"
-cd $PROJECT_DIR && docker-compose up
+cd $PROJECT_DIR/prestashop && chmod 777 cache var localization modules translations themes -R 
+
+cd $PROJECT_DIR && docker-compose up -d
