@@ -13,7 +13,7 @@ Here are the steps to get started:
 1. Change into directory:
 
  ```bash
-cd nginx-prestashop
+cd bizak-prestashop 
  ```
    Your directory should now look like this:
 
