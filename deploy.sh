@@ -2,7 +2,6 @@
 
 # TODO: Run tests + coverage
 # TODO: Analize reports
-# TODO: If OK
 
 ENV=$1
 PROJECT_NAME="bizak-prestashop-$ENV"
